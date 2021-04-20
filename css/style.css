@@ -37,7 +37,7 @@ body {
     align-items: center;
 }
 .header .header_in .logo a{
-    background-image: url("/img/h_logo.png");
+    background-image: url("../img/h_logo.png");
     display: block;
     width: 141px;
     height: 50px;
@@ -107,13 +107,13 @@ body {
     background-repeat: no-repeat;
 }
 .header .header_in .utill ul li:first-child a{
-    background-image: url("/img/search.png");
+    background-image: url("../img/search.png");
 }
 .header .header_in .utill ul li:nth-child(2) a{
-    background-image: url("/img/person.png");
+    background-image: url("../img/person.png");
 }
 .header .header_in .utill ul li:last-child a{
-    background-image: url("/img/basket.png");
+    background-image: url("../img/basket.png");
 }
 .header .header_in .utill ul li a:hover {
     background-color: #f5f5f5;
@@ -147,7 +147,7 @@ body {
     width: 27px;
     height: 50px;
     text-indent: -89999px;
-    background-image: url("/img/left_btn.png");
+    background-image: url("../img/left_btn.png");
 }
 .section1 .btn_R {
     position: absolute;
@@ -160,7 +160,7 @@ body {
     width: 27px;
     height: 50px;
     text-indent: -89999px;
-    background-image: url("/img/right_btn.png");
+    background-image: url("../img/right_btn.png");
 }
 .section1 .pager {
     position: absolute;
@@ -400,7 +400,7 @@ body {
 .section5 {
     width: 100%;
     overflow: hidden;
-    background-image: url("/img/bg_idea.jpg");
+    background-image: url("../img/bg_idea.jpg");
     background-repeat: no-repeat;
     background-position: center 0;
     margin-bottom: 118px;
@@ -513,7 +513,7 @@ body {
     padding-right: 22px;
 }
 .footer .footer_in .foot_L .f_logo {
-    background-image: url("/img/f_logo.jpg");
+    background-image: url("../img/f_logo.jpg");
     width: 151px;
     height: 54px;
     text-indent: -99999999999px;
@@ -560,7 +560,7 @@ body {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url("/img/icon_phone.png");
+    background-image: url("../img/icon_phone.png");
     text-indent: -99999px;
     vertical-align: top;
 }
@@ -606,11 +606,11 @@ body {
     text-indent: -99999px;
 }
 .footer .footer_in .foot_R .sns ul li:first-child a {
-    background-image: url("/img/icon_youtube.png");
+    background-image: url("../img/icon_youtube.png");
 } 
 .footer .footer_in .foot_R .sns ul li:nth-child(2) a {
-    background-image: url("/img/icon_facebook.png");
+    background-image: url("../img/icon_facebook.png");
 } 
 .footer .footer_in .foot_R .sns ul li:nth-child(3) a {
-    background-image: url("/img/icon_insta.png");
+    background-image: url("../img/icon_insta.png");
 } 
