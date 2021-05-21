@@ -21,12 +21,15 @@ body {
 .wrap {
     width: 100%;
     min-width: 1624px;
+    padding-top: 90px;
 }
 .header {
     width: 100%;
     position : fixed;
     z-index: 10000;
     background-color: #fff;
+    top : 0;
+    left : 0;
 }
 .header .header_in {
     width: 1224px;
@@ -120,74 +123,74 @@ body {
     border-radius: 55px;
 }
 .section1 {
-    padding-top: 90px;
     width: 100%;    
     height: 600px;
     position: relative;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     overflow: hidden;
 }
-.section1 .slide {
-    width: 100%;    
+.section1 .m1ImgBox {
+    position: relative;
     height: 600px;
+    overflow: hidden;
 }
-.section1 .slide .sImg {
+.section1 .m1ImgBox a {
+    display: block;
     position: absolute;
+    top : 0;
     left : 50%;
-    margin-left: -960px;
+    margin-left: -800px;
 }
 .section1 .btn_L {
     position: absolute;
-    top : 267px;
+    top : 290px;
     left : 50%;
     margin-left: -612px;
-}
-.section1 .btn_L a{
-    display: block;
     width: 27px;
     height: 50px;
     text-indent: -89999px;
     background-image: url("../img/left_btn.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 .section1 .btn_R {
     position: absolute;
-    top : 267px;
+    top : 290px;
     right : 50%;
     margin-right: -612px;
-}
-.section1 .btn_R a{
-    display: block;
     width: 27px;
     height: 50px;
     text-indent: -89999px;
     background-image: url("../img/right_btn.png");
+    cursor: pointer;
 }
-.section1 .pager {
+.section1 ul.slick-dots {
     position: absolute;
+    left: 0;
+    bottom : 20px;
     width: 100%;
-    bottom : 37px;
+    text-align: center;
 }
-.section1 .pager ul {
-    display: flex;
-    justify-content: center;
+.section1 ul.slick-dots li {
+    display: inline-block;    
+    margin : 0 4px;
 }
-.section1 .pager ul li {
-    margin : 0 5px;
-}
-.section1 .pager ul li a {
-    display: block;
+.section1 ul.slick-dots li button {
     width: 10px;
     height: 10px;
-    background-color: #fff;
-    border-radius: 55px;
-    text-indent: -99999px;
+    border-radius: 50%;
+    border : 1px solid #ddd;
+    text-indent: -98798798px;
+    background-color: #ccc;
+    cursor : pointer;
 }
-.section1 .pager ul .on a {
-    background-color: #777;
+.section1 ul.slick-dots li.slick-active button {
+    background-color: rgb(64, 64, 233);
+    border-color: rgb(47, 137, 255);
 }
 .section2 {
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .section2 .section2_in {
     width: 1224px;
@@ -213,7 +216,7 @@ body {
     display: block;
     font-size: 20px;
     font-weight: 500;
-    color : #333;
+    color : #666;
     padding-bottom: 6px;
     position : relative;
 }
@@ -224,7 +227,7 @@ body {
     transform: scale(1.05);
 }
 .section2 .section2_in .category ul .active a {
-    border-bottom: 2px solid #555;
+    color : #333;
 }
 .section2 .section2_in .productList {
     display: flex;
@@ -285,7 +288,7 @@ body {
 } 
 .section3 {
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .section3 .section3_in {
     width: 1224px;
@@ -340,7 +343,7 @@ body {
 }
 .section4 {
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .section4 .section4_in {
     width: 1224px;
