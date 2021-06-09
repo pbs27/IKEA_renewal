@@ -617,3 +617,6 @@ body {
 .footer .footer_in .foot_R .sns ul li:nth-child(3) a {
     background-image: url("../img/icon_insta.png");
 } 
+.copyright {
+    margin-top: 30px;
+}
